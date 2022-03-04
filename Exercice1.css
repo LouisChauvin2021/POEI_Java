@@ -1,0 +1,68 @@
+@media screen and (min-width:600px){
+	@font-face {
+		font-family: "MontSerrat";
+		src: url("assets/police/Montserrat/static/Montserrat-Medium.ttf") format("truetype");
+	}
+
+	@font-face {
+		font-family: "Raleway";
+		src: url("assets/police/Raleway/static/Raleway-Medium.ttf") format("truetype");
+	}
+
+	header{
+		text-align: center;
+		min-width: 90%;
+		max-height: 80%;
+		margin-top: 80px;
+		font-family: "Raleway";
+	}
+
+	section{
+		text-align: center;
+		min-width: 90%;
+		margin-top: 100px;
+	}
+
+	h1{
+		font-size: 40px;
+	}
+
+	h2{
+		color: #AAAAAA;
+		font-weight: normal;
+	}
+
+	p{
+		color: #AAAAAA;
+		text-align: center;
+	}
+
+	ul{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		font-family: "MontSerrat";
+	}
+
+	li{
+		border: 1px #AAAAAA solid;
+		font-weight: bold;
+		color: #AAAAAA;
+		border-radius: 25px;
+		padding: 12px 20px;
+		list-style-type: none;
+		margin: 20px;
+		font-size: 20px;
+	}
+
+	li:hover{
+		text-decoration: underline;
+	}
+
+	.all{
+		background-color: #F5614D;
+		color: white;
+		border: white;
+	}
+
+}
